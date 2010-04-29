@@ -5,7 +5,7 @@ Release:	%mkrel 1
 URL:		http://etree.org/shnutils/shntool
 Source0:	http://etree.org/shnutils/shntool/dist/src/%{name}-%{version}.tar.gz
 Group:		Sound
-License:	GPLv2+
+License:	GPLv2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Suggests:	flac
 Suggests:	sox
