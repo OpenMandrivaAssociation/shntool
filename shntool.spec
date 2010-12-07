@@ -1,7 +1,7 @@
 Summary:	A multi-purpose WAVE data processing and reporting utility
 Name:		shntool
 Version:	3.0.10
-Release:	%mkrel 1
+Release:	%mkrel 2
 URL:		http://etree.org/shnutils/shntool
 Source0:	http://etree.org/shnutils/shntool/dist/src/%{name}-%{version}.tar.gz
 Group:		Sound
