@@ -1,7 +1,7 @@
 Summary:	A multi-purpose WAVE data processing and reporting utility
 Name:		shntool
 Version:	3.0.10
-Release:	%mkrel 2
+Release:	%mkrel 3
 URL:		http://etree.org/shnutils/shntool
 Source0:	http://etree.org/shnutils/shntool/dist/src/%{name}-%{version}.tar.gz
 Group:		Sound
@@ -10,6 +10,14 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Suggests:	flac
 Suggests:	sox
 Suggests:	cuetools
+Suggests:	ttaenc
+Suggests:	shorten
+Suggests:	kexis
+Suggests:	bonk
+Suggests:	wavpack
+Suggests:	mp4als
+Suggests:	alac_decoder
+Suggests:	mac
 
 %description
 A multi-purpose WAVE data processing and reporting utility. File formats are
