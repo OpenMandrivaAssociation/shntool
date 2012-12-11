@@ -45,3 +45,20 @@ rm -rf %{buildroot}
 %doc doc/*
 %{_bindir}/shn*
 %{_mandir}/man1/*.1.*
+
+
+%changelog
+* Thu Sep 22 2011 Andrey Bondrov <abondrov@mandriva.org> 3.0.10-3mdv2011.0
++ Revision: 700852
+- Suggest more helper codecs as now we have them
+
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 3.0.10-2mdv2011.0
++ Revision: 614863
+- the mass rebuild of 2010.1 packages
+
+* Thu Apr 29 2010 Ahmad Samir <ahmadsamir@mandriva.org> 3.0.10-1mdv2010.1
++ Revision: 541015
+- fix license
+- import shntool
+
+
