@@ -18,6 +18,11 @@ Suggests:	sox
 Suggests:	ttaenc
 Suggests:	wavpack
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 A multi-purpose WAVE data processing and reporting utility. File formats are
 abstracted from its core, so it can process any file that contains WAVE data,
